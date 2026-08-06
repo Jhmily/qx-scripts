@@ -1,0 +1,7 @@
+{
+    "name": "Jhmily 脚本仓库",
+    "description": "自用脚本",
+    "task": [
+        "0 */2 * * * https://raw.githubusercontent.com/Jhmily/qx-scripts/main/eshop-monitor/eshop_monitor.js, tag=eShop价格监控, img-url=https://raw.githubusercontent.com/Jhmily/qx-scripts/main/eshop-monitor/eshopicon.png, enabled=true"
+    ]
+}

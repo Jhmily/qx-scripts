@@ -1,0 +1,32 @@
+{
+  "id": "jhmily.app.sub",
+  "name": "Jhmily 应用订阅",
+  "author": "@Jhmily",
+  "icon": "https://raw.githubusercontent.com/Jhmily/qx-scripts/main/eshop-monitor/eshopicon.png",
+  "repo": "https://github.com/Jhmily/qx-scripts",
+  "apps": [
+    {
+      "id": "eshop_monitor",
+      "name": "eShop 价格监控",
+      "desc_html": "监控游戏价格，打折后推送通知。支持日区/港区/美区/墨区/巴区",
+      "keys": ["eshop_apps"],
+      "settings": [
+        {
+          "id": "eshop_apps",
+          "name": "监控列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 4,
+          "desc": "一行一个，区域必填\n格式: NSUID:区域:名称\n70010000111277:jp:塞尔达"
+        }
+      ],
+      "author": "@Jhmily",
+      "repo": "https://github.com/Jhmily/qx-scripts",
+      "script": "https://raw.githubusercontent.com/Jhmily/qx-scripts/main/eshop-monitor/eshop_monitor.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Jhmily/qx-scripts/main/eshop-monitor/eshopicon.png"
+      ]
+    }
+  ]
+}
